@@ -1,6 +1,7 @@
 body{
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
+    color: #434455;
+    background-color: #ffffff;
 }
 
 a {
@@ -28,7 +29,7 @@ button{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -51,17 +52,21 @@ button{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
+.nav-item-link:focus,
 .nav-item-link:hover{
     color: #404bbf;
 }
 
 /* #region header address*/
 
-/*
-.header-addr {}
 
+.header-addr {
+    font-style: normal;
+}
+/*
 .addr-list {}
 
 .addr-list-item {}
@@ -75,6 +80,7 @@ button{
     color: #434455;
 }
 
+.addr-link:focus,
 .addr-link:hover{
     color: #404bbf;
 }
@@ -93,8 +99,9 @@ button{
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #fff;
 }
 
@@ -107,6 +114,7 @@ button{
     background-color: #4d5ae5;
 }
 
+.hero-btn:focus,
 .hero-btn:hover{
     background-color: #404bbf;
 }
@@ -128,6 +136,7 @@ button{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .main-sol-text {
@@ -135,7 +144,6 @@ button{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 /* #endregion */
@@ -149,21 +157,26 @@ button{
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
-
 /*
 .team-list {}
-
-.team-list-item {}
 */
+.team-list-item {
+    background-color: #ffffff;
+}
+
 
 .team-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .team-list-text {
@@ -171,7 +184,6 @@ button{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 /* #endregion */
@@ -185,8 +197,11 @@ button{
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 /*
@@ -200,6 +215,7 @@ button{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .portfolio-list-text {
@@ -207,7 +223,6 @@ button{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 /* #endregion */
